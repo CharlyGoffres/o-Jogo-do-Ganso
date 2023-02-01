@@ -1,0 +1,22 @@
+{"vida_jugador" : 100,
+"armadura_jugador" : 0,
+"max_energia_jugador" : 5,
+"numero_cartas" : 5,
+"ataque_jugador" : 0,
+"cartas" : [
+    {"nombre" : "Ataque Básico", "ataque" : 10, "energia" : 1, "Descripción" : "Realizas un ataque básico que hace 10 de daño y te cuesta 1 de energía"}, 
+    {"nombre" : "Ataque Fuerte", "ataque" : 20, "energia" : 2, "Descripción" : "Realizas un ataque fuerte que hace 20 de daño y te cuesta 2 de energía"},
+    {"nombre" : "Defensa", "armadura" : 10, "energia" : 1, "Descripción" : "Te pones en posición defensiva. +10 de armadura"}, 
+    {"nombre" : "Bola de Fuego", "ataque" : 5, "energia" : 0, "Descripción" : "Canalizas una bola de fuego que hace 5 de daño y no cuesta energía"},
+    {"nombre" : "Concentración", "bufo" : 5, "energia" : 2, "Descripción" : "Te concentras para augmentar tu fuerza en 5"},
+    {"nombre" : "Ataque con Robo", "ataque" : 5, "robar" : 1, "energia" : 1, "Descripción" : "Realizas un ataque rápido y consigues una carta aleatória extra"},
+    {"nombre" : "Ideas grandes", "robar" : 3, "energia" : 1, "Descripción" : "Piensas maneras distintas para luchar. Obtienes 3 cartas aleatórias nuevas"},
+    {"nombre" : "Intimidación", "bufo_monstruo" : -5, "energia" : 1, "Descripción":"Intimidas a un monstruo enemigo. Tiene un -5 de ataque"}
+],
+"monstruos" : [
+    {"nombre" : "Slime", "vida_monstruo" : 20, "armadura_monstruo" : 5, "aciones": [
+        {"nombre" : "Ataque", "ataque" : 5},
+        {"nombre" : "Defensa", "armadura" : 5}
+    ]}
+]
+}
